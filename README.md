@@ -10,7 +10,14 @@ The model is trained on YOLO-format annotations (class_id, x_center, y_center, w
   - **Regression head** → predicts bounding box (x_center, y_center, width, height)
 - Callbacks for training stability:
   - `ModelCheckpoint` to save the best model
-  - `EarlyStopping` to prevent overfitting
 - Visualization utilities to draw predicted bounding boxes and labels on images
 
-## Project Structure
+## Requirements
+- Python 3.8+
+- TensorFlow / Keras
+- NumPy
+- OpenCV
+- scikit-learn
+- Matplotlib
+
+- 
